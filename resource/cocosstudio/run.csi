@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="run" Type="Plist" ID="4bb35302-fe6d-430e-96bd-35953314fbc1" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="GameUI/run1.png" />
+      <FilePathData Path="GameUI/run2.png" />
+      <FilePathData Path="GameUI/run3.png" />
+      <FilePathData Path="GameUI/run4.png" />
+    </ImageFiles>
+    <MaxSize Width="128" Height="128" />
+  </Content>
+</PlistInfoProjectFile>

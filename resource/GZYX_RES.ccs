@@ -1,0 +1,30 @@
+<Solution>
+  <PropertyGroup Name="GZYX_RES" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="GameUI">
+          <Image Name="bg1.png" />
+          <Image Name="bg2.png" />
+          <Image Name="bg3.png" />
+          <Image Name="bg4.png" />
+          <Image Name="blank.png" />
+          <Image Name="run1.png" />
+          <Image Name="run2.png" />
+          <Image Name="run3.png" />
+          <Image Name="run4.png" />
+        </Folder>
+        <Folder Name="StartUI">
+          <Image Name="1.png" />
+          <Image Name="2.png" />
+          <Image Name="3.png" />
+        </Folder>
+        <Fnt Name="Font_Store.fnt" />
+        <Project Name="GameUI.csd" Type="Layer" />
+        <PlistInfo Name="run.csi" Type="Plist" />
+        <Project Name="StartUI.csd" Type="Layer" />
+        <TTF Name="zhunyuan.ttf" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

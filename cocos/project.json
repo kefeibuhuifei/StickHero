@@ -1,0 +1,29 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 30,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "cocostudio","extensions"],
+    "jsList" : [
+        "src/version.js",
+        "src/exports.js",
+        "src/util/const.js",
+        "src/util/global.js",
+        "src/resource.js",
+        "src/views/UICommonWidget.js",    
+        "src/views/ui/UIBase.js",
+        "src/views/ui/StartUI.js",
+        "src/views/ui/GameUI.js",
+        "src/views/scene/StartScene.js",
+        "src/views/scene/GameScene.js",
+        "src/views/uimanager/UIManagerBase.js",
+        "src/views/uimanager/StartSceneUIManager.js",
+        "src/views/uimanager/GameSceneUIManager.js"
+    ]
+}

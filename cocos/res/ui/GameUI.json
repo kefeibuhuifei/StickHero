@@ -1,0 +1,173 @@
+{
+  "ID": "afb83084-765b-4bba-9774-85670c9dee53",
+  "Version": "3.10.0.0",
+  "Name": "GameUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 26,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "GameUI/bg4.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 277,
+            "Scale9OriginY": 168,
+            "Scale9Width": 470,
+            "Scale9Height": 176,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 2.5,
+              "ScaleY": 2.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.4222,
+              "Y": 0.4
+            },
+            "LeftMargin": -152.0,
+            "RightMargin": -152.0,
+            "TopMargin": 384.0,
+            "BottomMargin": 384.0,
+            "Tag": 31,
+            "ActionTag": -829701555,
+            "Size": {
+              "X": 1024.0,
+              "Y": 512.0
+            },
+            "Name": "bg_img",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "LabelText": "0",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Font_Store.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 361.2758,
+              "Y": 1075.8285
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5018,
+              "Y": 0.8405
+            },
+            "PreSize": {
+              "X": 0.1208,
+              "Y": 0.1625
+            },
+            "LeftMargin": 317.7758,
+            "RightMargin": 315.2242,
+            "TopMargin": 100.1715,
+            "BottomMargin": 971.8285,
+            "Tag": 27,
+            "ActionTag": 1383439968,
+            "Size": {
+              "X": 87.0,
+              "Y": 208.0
+            },
+            "Name": "score_fnt",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 32,
+            "ActionTag": -107136213,
+            "Size": {
+              "X": 720.0,
+              "Y": 1280.0
+            },
+            "Name": "game_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Font_Store.fnt",
+        "Font_Store_0.png",
+        "GameUI/bg4.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

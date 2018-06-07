@@ -1,0 +1,319 @@
+{
+  "ID": "67f0f808-16d4-4d1d-a214-b321bfb52f6d",
+  "Version": "3.10.0.0",
+  "Name": "StartUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 4,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "GameUI/bg2.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 277,
+            "Scale9OriginY": 382,
+            "Scale9Width": 286,
+            "Scale9Height": 396,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.1667,
+              "Y": 0.9062
+            },
+            "LeftMargin": -60.0,
+            "RightMargin": -60.0,
+            "TopMargin": 60.0,
+            "BottomMargin": 60.0,
+            "Tag": 6,
+            "ActionTag": -1141746642,
+            "Size": {
+              "X": 840.0,
+              "Y": 1160.0
+            },
+            "Name": "bg_img",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "StartUI/1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 370,
+            "Scale9Height": 378,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 367.4175
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.287
+            },
+            "PreSize": {
+              "X": 0.5556,
+              "Y": 0.3125
+            },
+            "LeftMargin": 160.0,
+            "RightMargin": 160.0,
+            "TopMargin": 712.5825,
+            "BottomMargin": 167.4175,
+            "Tag": 7,
+            "ActionTag": 1878976491,
+            "Size": {
+              "X": 400.0,
+              "Y": 400.0
+            },
+            "VisibleForFrame": false,
+            "Name": "start_btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "StartUI/2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 190,
+            "Scale9Height": 198,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 360.0,
+              "Y": 355.382
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.2776
+            },
+            "PreSize": {
+              "X": 0.3056,
+              "Y": 0.1719
+            },
+            "LeftMargin": 250.0,
+            "RightMargin": 250.0,
+            "TopMargin": 814.618,
+            "BottomMargin": 245.382,
+            "Tag": 8,
+            "ActionTag": -1792265748,
+            "Size": {
+              "X": 220.0,
+              "Y": 220.0
+            },
+            "VisibleForFrame": false,
+            "Name": "restart_btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "LabelText": "最高分数：0",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "zhunyuan.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 328.4784,
+              "Y": 1117.5918
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4562,
+              "Y": 0.8731
+            },
+            "PreSize": {
+              "X": 0.1889,
+              "Y": 0.0211
+            },
+            "LeftMargin": 260.4784,
+            "RightMargin": 323.5216,
+            "TopMargin": 148.9082,
+            "BottomMargin": 1104.0918,
+            "Tag": 11,
+            "ActionTag": 1034699129,
+            "Size": {
+              "X": 136.0,
+              "Y": 27.0
+            },
+            "Name": "max_score_label",
+            "ctype": "TextObjectData"
+          },
+          {
+            "LabelText": "1",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "Font_Store.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 344.3335,
+              "Y": 962.0699
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4782,
+              "Y": 0.7516
+            },
+            "PreSize": {
+              "X": 0.0847,
+              "Y": 0.1625
+            },
+            "LeftMargin": 313.8335,
+            "RightMargin": 345.1665,
+            "TopMargin": 213.9301,
+            "BottomMargin": 858.0699,
+            "Tag": 12,
+            "ActionTag": -1139406985,
+            "Size": {
+              "X": 61.0,
+              "Y": 208.0
+            },
+            "VisibleForFrame": false,
+            "Name": "score_fnt",
+            "ctype": "TextBMFontObjectData"
+          }
+        ],
+        "Size": {
+          "X": 720.0,
+          "Y": 1280.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Font_Store.fnt",
+        "Font_Store_0.png",
+        "GameUI/bg2.png",
+        "StartUI/1.png",
+        "StartUI/2.png",
+        "zhunyuan.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
